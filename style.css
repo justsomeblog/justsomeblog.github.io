@@ -6,7 +6,8 @@
   body {
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
-    background: black;
+    background-image: url("https://www.desktopbackground.org/download/1680x1050/2010/06/09/30369_theme-bin-blog-archive-dark-wood-2-hd-wallpapers_2560x1600_h.jpg");
+    background-attachment: fixed;
   }
 
   h2 {
@@ -25,14 +26,17 @@
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: black;
+    background: rgb(36, 36, 36);
     color:white;
   }
   
   .card {
      background-color: rgb(73, 67, 67);
-     padding: 20px;
+     padding: 30px;
      margin-top: 20px;
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
   }
   
   .row:after {

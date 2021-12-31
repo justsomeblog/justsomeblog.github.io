@@ -27,11 +27,57 @@
       float:left;
   }
 
+  .collapsible {
+    background-color: rgb(73, 67, 67);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.active, .collapsible:hover {
+    background-color: black;
+}
+
+.collapsible:focus {
+    background-color:black;
+  }
+
+
+.content {
+    background-color: rgb(73, 67, 67);
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+    transition: max-height 0.3s ease-out;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+}
+
+.center{
+    text-align: center;
+}
 
   .he2{
     float:right;
     color: white;
   }
+
+  .card {
+    background-color: rgb(73, 67, 67);
+    padding: 30px;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
   .sticky {
     position: fixed;
@@ -82,20 +128,6 @@
     height: 130px;
   }
   
-  .card {
-     background-color: rgb(73, 67, 67);
-     padding: 30px;
-     margin-top: 20px;
-     width: 70%;
-     margin-left: auto;
-     margin-right: auto;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
   
 
   

@@ -10,6 +10,11 @@
         background-attachment: fixed;
     }
 
+    ::selection{
+        background:lightblue;
+        color:black;
+    }
+
 
     .nav li {
         display: inline;

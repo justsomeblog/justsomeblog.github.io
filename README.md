@@ -11,3 +11,5 @@ The current status of this web is: Online
 The current status of this blog is: Updating
 
 Have a look around. Make yourself at home. This place rarely get visitors.
+
+Jan. 31st, 2021 Update: Comment sections are *off* as of right now. I need to figure some stuff out with the permissions and PHP stuff before it can actually be in action. Hopefully it doesn't take too long.

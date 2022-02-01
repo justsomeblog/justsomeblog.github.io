@@ -151,4 +151,15 @@
     background-color: rgb(73, 67, 67);
     padding: 30px;
   }
+
+  .button{
+      border: none;
+      background-color:rgb(36, 36, 36);
+      color: white;
+  }
+
+  .button:hover{
+      background-color: white;
+      color:green
+  }
   

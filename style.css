@@ -2,6 +2,9 @@
     box-sizing: border-box;
   }
   
+  html {
+      scroll-behavior: smooth;
+  }
 
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,32 +95,43 @@
     margin-right: auto;
  }
 
+ .card2 {
+    background-color: rgb(73, 67, 67);
+    padding: 30px;
+    margin-top: 20px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+ }
+
+ .toc{
+    position: sticky;
+	top: 2rem;
+	align-self: start;
+ }
+
   .sticky {
     position: fixed;
     top: 0;
-    width: 95%
+    width: 95%;
   }
 
 
   a:link{
       color:white;
       background-color:transparent;
-      vertical-align: middle;
       text-decoration: none;
   }
 
   a:visited{
       color:white;
       background-color:transparent;
-      vertical-align: middle;
       text-decoration: none;
   }
 
   a:hover{
       color:green;
       background-color:transparent;
-      vertical-align: middle;
-      text-decoration: none;
       text-decoration: none;
   }
   
@@ -143,7 +157,7 @@
   
   #HCB_comment_box {
     color:white;
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

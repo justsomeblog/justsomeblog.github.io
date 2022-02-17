@@ -120,21 +120,25 @@
   a:link{
       color:white;
       background-color:transparent;
-      text-decoration: none;
+      text-decoration: underline;
   }
 
   a:visited{
       color:white;
       background-color:transparent;
-      text-decoration: none;
+      text-decoration: underline;
   }
 
   a:hover{
       color:green;
       background-color:transparent;
-      text-decoration: none;
+      text-decoration: underline;
   }
   
+.nodec{
+    text-decoration: none;
+}
+
   h2 {
       color:white;
   }

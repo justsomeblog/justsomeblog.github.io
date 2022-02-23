@@ -13,6 +13,11 @@
         background-attachment: fixed;
     }
 
+    body:after{
+      display: none;
+      content:url("./Images/background.jpg");
+    }
+
     ::selection{
         background:lightblue;
         color:black;
@@ -77,9 +82,8 @@
     width:70%;
 }
 
-.center{
-    text-align: center;
-}
+.center{ text-align: center;} /*why the heck does text align also apply to children components, I don't get it*/
+
 
   .he2{
     float:right;

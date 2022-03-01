@@ -13,7 +13,7 @@
         background-attachment: fixed;
     }
 
-    body:after{
+    body:after{ /*Preload the background*/
       display: none;
       content:url("./Images/background.jpg");
     }
@@ -60,6 +60,17 @@
   .spoiler:hover{
     color: white;
     }
+
+    .spoiler-2{ 
+      color: black; 
+      background-color:black;
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    
+    .spoiler-2:hover{
+      color: rgb(192, 7, 7);
+      }
 
 .active, .collapsible:hover {
     background-color: black;
@@ -153,6 +164,12 @@
 
   p{
       color:white
+  }
+
+  .anger{
+    color: rgb(192, 7, 7);
+    font-size: 40px;
+    font-weight:bolder;
   }
 
   .header {

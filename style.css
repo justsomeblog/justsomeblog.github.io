@@ -6,6 +6,8 @@
       scroll-behavior: smooth;
   }
 
+  ol{color: white}
+
   body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 20px;
@@ -180,6 +182,8 @@
     height: 130px;
   }
   
+/*comment section*/
+
   #HCB_comment_box {
     color:white;
     width: 70%;
@@ -189,6 +193,8 @@
     background-color: rgb(73, 67, 67);
     padding: 30px;
   }
+
+/*buttons*/
 
   .button{
       border: none;
@@ -200,6 +206,8 @@
       background-color: white;
       color:green
   }
+
+  /*Animations*/
   
   .animate {
     animation-duration: 0.5s;
@@ -234,7 +242,7 @@
   .delay-1 { animation-delay: 0.8s; } 
 
 
-
+  /*Preloader*/
 
   .loader {
     bottom: 0;

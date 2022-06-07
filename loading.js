@@ -1,3 +1,3 @@
-$(window).on("load", setTimeout(function(){
+$(window).on("load", function(){
     $(".loader-wrapper").fadeOut("slow");
-}, 500));
+});
